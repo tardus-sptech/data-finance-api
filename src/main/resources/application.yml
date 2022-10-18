@@ -62,7 +62,7 @@ spring:
 app-config:
 
   services:
-    spenties: ${FINANCE_API_HOST:localhost}:${FINANCE_API_PORT:8082}
+    spenties: ${FINANCE_API_HOST}
 
   secrets:
     api-secret: ${API_SECRET:YXV0aC1hcGktc2VjcmV0LWRldi10YXVydXM=}
